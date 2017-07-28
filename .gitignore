@@ -1,0 +1,4 @@
+.vscode
+*.gotest
+*.log
+test.txt

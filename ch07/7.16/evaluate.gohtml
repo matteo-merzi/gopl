@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Expression Evaluator</title>
+</head>
+<body>
+
+
+<p>The Expression: {{.Expression}}</p>
+<p>The Variables: {{.Variables}}</p>
+{{if .Err}}
+  <p>Error: {{.Err}}</p>
+{{end}}
+<p>The result is: {{.Value}}</p>
+
+<form action="/" method="GET">
+  <input type="submit" name="submit-btn" value="New expression">
+</form>
+
+</body>
+</html>

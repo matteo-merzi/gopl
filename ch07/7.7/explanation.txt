@@ -1,0 +1,1 @@
+Celsius's String() method add the "°C" symbol but the actual underline value of Celsius is a float64
